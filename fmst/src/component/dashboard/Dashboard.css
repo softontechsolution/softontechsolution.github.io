@@ -1,0 +1,48 @@
+@import "~antd/dist/antd.css";
+
+#components-layout-demo-side .logo {
+  height: 42px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  position: sticky;
+  z-index: 0;
+  top: 1;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.addVehicle_vehicleNAME {
+  content: " *";
+  color: red;
+}
+.addVehicle_vehicleID {
+  content: " *";
+  color: red;
+}
